@@ -1,31 +1,25 @@
 {
-  "name": "latest",
+  "name": "HeartRateAssignment",
   "version": "1.0.0",
+  "description": "Two ways to execute the test\r 1. Add Code Runner Extention in the vscode, a run button will appear on the top right side. Navigate to Tests/HeartRateBatch/Test_001_HeartRate.ts and click on run button. It executes the code and saves the output in output json file under TestData folder under HeartRateBatch.\r 2. open terminal and execute the command tsc, ts files will compile and js files will be created under Bin folder. Use below command to execute the js file\r node ./Bin/Tests/HeartRateBatch/Test_001_HeartRate.js",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/munna7862/HeartRateAssignment.git"
+  },
+  "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "@types/chai": "^4.2.10",
-    "@types/mocha": "^5.2.7",
-    "@types/node": "^12.12.29",
-    "@types/selenium-webdriver": "^4.0.9",
-    "axios": "^1.6.2",
-    "chai": "^4.2.0",
-    "chromedriver": "^75.1.0",
-    "firefox-profile": "^1.3.0",
-    "g": "^2.0.1",
-    "https-proxy-agent": "^7.0.2",
-    "jsonpath": "^1.0.2",
-    "mocha": "^6.2.0",
-    "mochawesome": "^4.0.1",
-    "moment": "^2.24.0",
-    "oracledb": "^4.2.0",
-    "selenium-webdriver": "^4.0.0-alpha.7",
-    "sync": "^0.2.5",
-    "xlsx": "^0.16.8"
+  "bugs": {
+    "url": "https://github.com/munna7862/HeartRateAssignment/issues"
   },
-  "description": ""
+  "homepage": "https://github.com/munna7862/HeartRateAssignment#readme",
+  "dependencies": {
+    "@types/node": "^20.11.10",
+    "@types/selenium-webdriver": "^4.1.21",
+    "selenium-webdriver": "^4.17.0"
+  }
 }
